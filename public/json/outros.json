@@ -1,0 +1,15 @@
+{
+    "outros_servicos": {
+        "chaveiro": [
+            { "nome": "Carlos", "telefone": "(62) 99567-6252" }
+        ],
+        "guincho": [
+            { "nome": "GB Guincho", "telefone": "(62) 99644-1960" }
+        ],
+        "farmacias": [
+            { "nome": "Drogaria ViaFarma", "telefone": "(62) 99954-8847", "instagram": "drogaria.viafarma" },
+            { "nome": "Farmácia Colinas", "telefone": "(62) 3486-1079 / (62) 99651-7401", "instagram": "farmaciacolinas" },
+            { "nome": "Farmácia Santa Marta", "telefone": "(62) 3486-1133 / (62) 99635-9671", "instagram": "farmaciasantamarta1" }
+        ]
+    }
+}

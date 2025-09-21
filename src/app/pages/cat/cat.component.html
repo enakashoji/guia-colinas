@@ -1,0 +1,23 @@
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <h2 class="h4 m-0">Centro de Atendimento ao Turista</h2>
+  <a routerLink="/" class="btn btn-outline-primary btn-sm"><i class="bi bi-house me-1"></i> Início</a>
+  
+</div>
+<div *ngIf="cat$ | async as c">
+  <article class="card card-elevated">
+    <div class="card-body">
+      <h3 class="h5 mb-2">{{ c.centro_atendimento_turista.nome }}</h3>
+      <div class="d-flex flex-wrap gap-2">
+        <a class="btn btn-outline-primary btn-sm" href="tel:{{ c.centro_atendimento_turista.telefone }}">
+          <i class="bi bi-telephone me-1"></i> Ligar
+        </a>
+        <a class="btn btn-outline-primary btn-sm" href="https://instagram.com/{{ c.centro_atendimento_turista.instagram }}" target="_blank" rel="noopener">
+          <i class="bi bi-instagram me-1"></i> Instagram
+        </a>
+        <a class="btn btn-outline-primary btn-sm" href="mailto:{{ c.centro_atendimento_turista.email }}">
+          <i class="bi bi-envelope me-1"></i> E-mail
+        </a>
+      </div>
+    </div>
+  </article>
+</div>

@@ -1,0 +1,120 @@
+{
+    "guias": [
+        {
+            "nome": "Alam Kardec",
+            "telefone": "(62) 99627-4477",
+            "instagram": "kardecstur.colinasdosul"
+        },
+        {
+            "nome": "Alessandro Cardoso",
+            "telefone": "(62) 99520-5504",
+            "instagram": "sandro17cardoso"
+        },
+        {
+            "nome": "Eduardo Oliveira",
+            "telefone": "(62) 99389-6722",
+            "instagram": "dudu.guiachapadeiro"
+        },
+        {
+            "nome": "Fábio Neto",
+            "telefone": "(61) 99835-1610",
+            "instagram": "neto_guia"
+        },
+        {
+            "nome": "Felipe Palhano",
+            "telefone": "(62) 99860-9038",
+            "instagram": "palhano.guiacv"
+        },
+        {
+            "nome": "Jeferson Xavier",
+            "telefone": "(62) 99671-2667",
+            "instagram": "jeffim_xaviertguia"
+        },
+        {
+            "nome": "José Nilo",
+            "telefone": "(62) 99658-8000",
+            "instagram": "joseniloalmeidapassos"
+        },
+        {
+            "nome": "Julio Avelar",
+            "telefone": "(62) 9654-1169",
+            "instagram": "guianativojulio"
+        },
+        {
+            "nome": "Keven Vinicius",
+            "telefone": "(62) 9868-8940",
+            "instagram": "_kevinguia"
+        },
+        {
+            "nome": "Mateus Corino",
+            "telefone": "(62) 99936-3798",
+            "instagram": "mateuscorino"
+        },
+        {
+            "nome": "Pedro Matta",
+            "telefone": "(61) 99954-9212",
+            "instagram": "guiadamatta"
+        },
+        {
+            "nome": "Rocha Maia",
+            "telefone": "(61) 99617-4473",
+            "instagram": "guiarmaia"
+        },
+        {
+            "nome": "Whester",
+            "telefone": "(62) 99352-9494",
+            "instagram": "whwsterguia"
+        }
+    ],
+    "associacoes_operadoras": [
+        {
+            "nome": "AGENDAS",
+            "instagram": "associacaoagendas"
+        },
+        {
+            "nome": "NATIVOS TURISMO E CULTURA",
+            "instagram": "nativosturismoecultura"
+        },
+        {
+            "nome": "TERRESTRE AVENTURA",
+            "instagram": "terrestreaventura"
+        }
+    ],
+    "servicos_nauticos": [
+        {
+            "nome": "Cabana do Pescador",
+            "telefone": "(62) 99942-7311 / (62) 99925-2651",
+            "instagram": "cabanadopescador.go"
+        },
+        {
+            "nome": "Lambux",
+            "telefone": "(11) 98424-7106",
+            "instagram": "lambux.se"
+        },
+        {
+            "nome": "Nativos Turismo e Cultura",
+            "telefone": "(62) 99251-6946",
+            "instagram": "nativosturismoecultura"
+        },
+        {
+            "nome": "Pousada e Rancho da Ni",
+            "telefone": "(62) 99651-3633",
+            "instagram": "pousadaranchodani"
+        },
+        {
+            "nome": "Pousada Pôr do Sol",
+            "telefone": "(62) 99675-6383",
+            "instagram": "pousadapordosolserradamesa"
+        },
+        {
+            "nome": "Zé Mineiro",
+            "telefone": "(62) 99973-1475",
+            "instagram": null
+        },
+        {
+            "nome": "Ronaldo Queiroz",
+            "telefone": "(62) 99663-2373",
+            "instagram": "serradamesa_chapada"
+        }
+    ]
+}

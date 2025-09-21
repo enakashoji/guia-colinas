@@ -1,0 +1,33 @@
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <h2 class="h4 m-0">Hospedagem</h2>
+  <a routerLink="/" class="btn btn-outline-primary btn-sm"><i class="bi bi-house me-1"></i> Início</a>
+
+</div>
+<div *ngIf="entries$ | async as entries">
+  <section class="mb-4" *ngFor="let entry of entries">
+    <h3 class="h6 text-muted mb-2">{{ entry.key | titleKey }}</h3>
+    <div class="row g-3">
+      <div class="col-12 col-md-6" *ngFor="let h of entry.value">
+        <article class="card card-elevated h-100">
+          <div class="card-body">
+            <h4 class="h6 mb-2">{{ h.nome }}</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <a *ngIf="h.telefone" class="btn btn-outline-primary btn-sm" href="tel:{{ h.telefone }}">
+                <i class="bi bi-telephone me-1"></i> Ligar
+              </a>
+            <a *ngIf="h.telefone" class="btn btn-outline-success btn-sm" href="{{ h.telefone | whatsappLink }}" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-1"></i> WhatsApp
+            </a>
+              <a *ngIf="h.instagram" class="btn btn-outline-primary btn-sm" href="https://instagram.com/{{ h.instagram }}" target="_blank" rel="noopener">
+                <i class="bi bi-instagram me-1"></i> Instagram
+              </a>
+            <a *ngIf="h.lat && h.lng" class="btn btn-outline-primary btn-sm" href="https://www.google.com/maps/dir/?api=1&destination={{ h.lat }},{{ h.lng }}&travelmode=driving" target="_blank" rel="noopener">
+              <i class="bi bi-geo-alt me-1"></i> Como chegar
+            </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>

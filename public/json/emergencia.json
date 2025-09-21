@@ -1,0 +1,9 @@
+{
+    "emergencia": [
+        { "servico": "Corpo de Bombeiros", "telefone": "193" },
+        { "servico": "Corpo de Bombeiros Niquelândia", "telefone": "(62) 3354-2060", "observacao": "Atendimento emergencial de área não coberta pela rede de telefonia" },
+        { "servico": "Polícia Militar de Colinas", "telefone": "(62) 99901-5591" },
+        { "servico": "Polícia Militar", "telefone": "190" },
+        { "servico": "SAMU", "telefone": "192" }
+    ]
+}

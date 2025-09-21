@@ -1,0 +1,25 @@
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <h2 class="h4 m-0">Emergência</h2>
+  <a routerLink="/" class="btn btn-outline-primary btn-sm"><i class="bi bi-house me-1"></i> Início</a>
+  
+</div>
+<div *ngIf="emergencia$ | async as e">
+  <div class="row g-3">
+    <div class="col-12 col-md-6" *ngFor="let item of e.emergencia">
+      <article class="card card-elevated h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-2">{{ item.servico }}</h3>
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-outline-primary btn-sm" href="tel:{{ item.telefone }}">
+              <i class="bi bi-telephone me-1"></i> Ligar
+            </a>
+            <a class="btn btn-outline-success btn-sm" href="{{ item.telefone | whatsappLink }}" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-1"></i> WhatsApp
+            </a>
+            <span *ngIf="item.observacao" class="align-self-center text-muted small">{{ item.observacao }}</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>

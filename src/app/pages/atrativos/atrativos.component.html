@@ -1,0 +1,36 @@
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <h2 class="h4 m-0">Atrativos</h2>
+  <a routerLink="/" class="btn btn-outline-primary btn-sm"><i class="bi bi-house me-1"></i> Início</a>
+  
+</div>
+<div *ngIf="atrativos$ | async as atrativos">
+  <div class="row g-3">
+    <div class="col-12 col-md-6" *ngFor="let a of atrativos">
+      <article class="card card-elevated h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title d-flex align-items-start justify-content-between">
+            <span>{{ a.nome }}</span>
+            <span class="badge text-bg-light">Atrativo</span>
+          </h3>
+          <ul class="mb-3">
+            <li *ngFor="let d of a.descricao">{{ d }}</li>
+          </ul>
+          <div class="d-flex flex-wrap gap-2">
+            <a *ngIf="a.telefone" class="btn btn-outline-primary btn-sm" href="tel:{{ a.telefone }}">
+              <i class="bi bi-telephone me-1"></i> Ligar
+            </a>
+            <a *ngIf="a.telefone" class="btn btn-outline-success btn-sm" href="{{ a.telefone | whatsappLink }}" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-1"></i> WhatsApp
+            </a>
+            <a *ngIf="a.instagram" class="btn btn-outline-primary btn-sm" href="https://instagram.com/{{ a.instagram }}" target="_blank" rel="noopener">
+              <i class="bi bi-instagram me-1"></i> Instagram
+            </a>
+            <a *ngIf="a.lat && a.lng" class="btn btn-outline-primary btn-sm" href="https://www.google.com/maps/dir/?api=1&destination={{ a.lat }},{{ a.lng }}&destination_place_id=&travelmode=driving" target="_blank" rel="noopener">
+              <i class="bi bi-geo-alt me-1"></i> Rotas
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>

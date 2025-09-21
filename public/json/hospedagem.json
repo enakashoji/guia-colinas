@@ -1,0 +1,209 @@
+{
+  "chales_suites_casas": [
+    {
+      "nome": "Casa Aki",
+      "telefone": "(61) 98424-7461",
+      "instagram": "casa.aki",
+      "lat": -14.1497517,
+      "lng": -48.0732162
+    },
+    {
+      "nome": "Bangalô da Colina",
+      "telefone": "(61) 99945-8441",
+      "instagram": "bangalodacolina"
+    },
+    {
+      "nome": "Girassol Hospedaria",
+      "telefone": "(62) 99612-0182",
+      "instagram": "girassol.hospedaria"
+    },
+    {
+      "nome": "Bangalôs Tikim de Terra",
+      "telefone": "(62) 99978-4274",
+      "instagram": "tikim.deterra"
+    },
+    {
+      "nome": "Chalés Lua Nova",
+      "telefone": null,
+      "instagram": "chalesluanova"
+    },
+    {
+      "nome": "Chalés Paraíso das Águas",
+      "telefone": "(62) 98442-2974",
+      "instagram": "chalesparaisodasaguas"
+    },
+    {
+      "nome": "Encanto das Flores",
+      "telefone": "(61) 99970-0941",
+      "instagram": "encanto_dasflores"
+    },
+    {
+      "nome": "Fazenda Catalão",
+      "telefone": "(61) 99807-3066",
+      "instagram": "fazendacatalao"
+    },
+    {
+      "nome": "Fazenda Rei do Laço",
+      "telefone": "(61) 99823-0888",
+      "instagram": null
+    },
+    {
+      "nome": "Rancho Carcará",
+      "telefone": "(61) 99905-5415",
+      "instagram": null
+    },
+    {
+      "nome": "Rancho Nossa Senhora Aparecida (Rancho Doido)",
+      "telefone": "(62) 99987-7593",
+      "instagram": null
+    },
+    {
+      "nome": "Segredo da Colina",
+      "telefone": "(61) 98134-7096",
+      "instagram": "segredodacolina"
+    },
+    {
+      "nome": "Tetê Temporada",
+      "telefone": "(61) 99806-2698",
+      "instagram": "casatttemporada"
+    },
+    {
+      "nome": "Vale das Araras",
+      "telefone": "(62) 99238-8694",
+      "instagram": "valedasararas"
+    }
+  ],
+  "hoteis_pousadas": [
+    {
+      "nome": "Casa Cerrado",
+      "telefone": "(62) 99340-6829",
+      "instagram": "casacerradopousada"
+    },
+    {
+      "nome": "Hotel Nosso Cantinho",
+      "telefone": "(61) 99686-1465",
+      "instagram": "nossocantinhohotel"
+    },
+    {
+      "nome": "Pousada Adorno",
+      "telefone": "(62) 99663-1649",
+      "instagram": "pousadaadorno"
+    },
+    {
+      "nome": "Pousada Água Franca",
+      "telefone": "(62) 99626-4693",
+      "instagram": "pousada_aguafranca"
+    },
+    {
+      "nome": "Pousada Céu da Terra",
+      "telefone": "(61) 99137-3737",
+      "instagram": "ceudaterra_go"
+    },
+    {
+      "nome": "Pousada Éden",
+      "telefone": "(61) 99512-4509",
+      "instagram": "edenchapadadosveadeiros"
+    },
+    {
+      "nome": "Pousada Fora de Rota",
+      "telefone": "(62) 99994-3887",
+      "instagram": "pousadaforade"
+    },
+    {
+      "nome": "Rede Planeta Hotel",
+      "telefone": "(62) 99669-1587",
+      "instagram": "planeta.hotel"
+    },
+    {
+      "nome": "Reserva Caiuá",
+      "telefone": "(61) 99945-8441",
+      "instagram": "reservacaiua"
+    }
+  ],
+  "hospedagem_atrativos": [
+    {
+      "nome": "Casa D’Boa Ecoparque",
+      "telefone": "(62) 99674-5511",
+      "instagram": "dboaecoparque"
+    },
+    {
+      "nome": "Chalé Cachoeirinha",
+      "telefone": "(62) 99624-8453",
+      "instagram": "pousada_cachoeirinha_colinas_go"
+    },
+    {
+      "nome": "Hospedagem Santuário Beija Flor",
+      "telefone": "(61) 99976-1715",
+      "instagram": "santuariobeijaflor"
+    }
+  ],
+  "hospedagem_lago_serra_mesa": [
+    {
+      "nome": "Cabana do Pescador",
+      "telefone": "(62) 99925-2651",
+      "instagram": "cabanadopescador.go"
+    },
+    {
+      "nome": "Pousada Pôr do Sol",
+      "telefone": "(62) 99675-6383",
+      "instagram": "pousadapordosolserradamesa"
+    },
+    {
+      "nome": "Pousada Rancho da Ni",
+      "telefone": "(62) 99651-3633",
+      "instagram": "pousadaranchodani"
+    },
+    {
+      "nome": "Pousada Zé Mineiro",
+      "telefone": "(62) 99973-1475",
+      "instagram": null
+    },
+    {
+      "nome": "Sítio Curicaca",
+      "telefone": "(62) 99657-4553",
+      "instagram": "sitio.curicaca"
+    }
+  ],
+  "campings": [
+    {
+      "nome": "Camping Beira Rio",
+      "telefone": "(62) 99907-0657",
+      "instagram": "campingbeirario"
+    },
+    {
+      "nome": "Camping Carcará",
+      "telefone": "(61) 99905-5415",
+      "instagram": null
+    },
+    {
+      "nome": "Camping Rancho da Ni",
+      "telefone": "(62) 99651-3633",
+      "instagram": "pousadaranchodani"
+    },
+    {
+      "nome": "Camping Rancho do Rio Preto",
+      "telefone": "(61) 99876-6042",
+      "instagram": "campingranchodoriopreto"
+    },
+    {
+      "nome": "Camping Santuário Beija Flor",
+      "telefone": "(61) 99976-1715",
+      "instagram": "santuariobeijaflor"
+    },
+    {
+      "nome": "Camping Solar da Colina",
+      "telefone": "(62) 99573-3538 / (61) 99186-2727",
+      "instagram": "campingsolardacolina"
+    },
+    {
+      "nome": "Camping Terra Rosa",
+      "telefone": "(62) 99689-1895",
+      "instagram": null
+    },
+    {
+      "nome": "Vale das Ilhas Camping",
+      "telefone": "(62) 99649-6152",
+      "instagram": null
+    }
+  ]
+}

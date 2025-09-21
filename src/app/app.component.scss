@@ -1,0 +1,28 @@
+main {
+  padding: 16px 0;
+}
+
+.navbar {
+  background-color: var(--color-primary) !important;
+  .navbar-brand,
+  .nav-link {
+    color: var(--color-text-inverse) !important;
+  }
+
+  .nav-link {
+    opacity: .9;
+    border-radius: var(--radius-sm);
+    padding: .375rem .6rem;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    background: color-mix(in srgb, var(--color-surface) 12%, transparent);
+    color: var(--color-text-inverse) !important;
+  }
+}
+
+.app-footer {
+  background: var(--color-surface);
+  border-top: 1px solid rgba(0,0,0,.06);
+}
