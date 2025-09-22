@@ -11,8 +11,8 @@
       "nome": "Bangalô da Colina",
       "telefone": "(61) 99945-8441",
       "instagram": "bangalodacolina",
-      "lat": -14.15003332642655,
-      "lng": -48.07324555003198
+      "lat": -14.149809922076253,
+      "lng": -48.0732933153421
     },
     {
       "nome": "Girassol Hospedaria",
@@ -121,7 +121,9 @@
     {
       "nome": "Reserva Caiuá",
       "telefone": "(61) 99945-8441",
-      "instagram": "reservacaiua"
+      "instagram": "reservacaiua",
+      "lat": -14.149809922076253,
+      "lng": -48.0732933153421
     }
   ],
   "hospedagem_atrativos": [
