@@ -7,11 +7,10 @@ import { TitleKeyPipe } from '../../pipes/title-key.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 
 @Component({
-  selector: 'app-outros',
-  standalone: true,
-  imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
-  templateUrl: './outros.component.html',
-  styleUrl: './outros.component.scss'
+    selector: 'app-outros',
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
+    templateUrl: './outros.component.html',
+    styleUrl: './outros.component.scss'
 })
 export class OutrosComponent {
   private data = inject(DataService);

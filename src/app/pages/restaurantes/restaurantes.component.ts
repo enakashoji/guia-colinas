@@ -7,11 +7,10 @@ import { TitleKeyPipe } from '../../pipes/title-key.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 
 @Component({
-  selector: 'app-restaurantes',
-  standalone: true,
-  imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
-  templateUrl: './restaurantes.component.html',
-  styleUrl: './restaurantes.component.scss'
+    selector: 'app-restaurantes',
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
+    templateUrl: './restaurantes.component.html',
+    styleUrl: './restaurantes.component.scss'
 })
 export class RestaurantesComponent {
   private data = inject(DataService);

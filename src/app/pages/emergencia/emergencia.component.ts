@@ -6,11 +6,10 @@ import { Observable } from 'rxjs';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 
 @Component({
-  selector: 'app-emergencia',
-  standalone: true,
-  imports: [NgFor, NgIf, AsyncPipe, RouterLink, WhatsappLinkPipe],
-  templateUrl: './emergencia.component.html',
-  styleUrl: './emergencia.component.scss'
+    selector: 'app-emergencia',
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, WhatsappLinkPipe],
+    templateUrl: './emergencia.component.html',
+    styleUrl: './emergencia.component.scss'
 })
 export class EmergenciaComponent {
   private data = inject(DataService);

@@ -10,12 +10,16 @@
     {
       "nome": "Bangalô da Colina",
       "telefone": "(61) 99945-8441",
-      "instagram": "bangalodacolina"
+      "instagram": "bangalodacolina",
+      "lat": -14.15003332642655,
+      "lng": -48.07324555003198
     },
     {
       "nome": "Girassol Hospedaria",
       "telefone": "(62) 99612-0182",
-      "instagram": "girassol.hospedaria"
+      "instagram": "girassol.hospedaria",
+      "lat": -14.151195266048923,
+      "lng": -48.07368270032487
     },
     {
       "nome": "Bangalôs Tikim de Terra",

@@ -1,104 +1,108 @@
 [
-    {
-        "nome": "Cachoeira Pau Brasil",
-        "descricao": [
-            "Cachoeira com acesso fácil (sazonal), piscinas e alimentação."
-        ],
-        "telefone": "(62) 99907-0657",
-        "instagram": "cachoeirapaubrasil"
-    },
-    {
-        "nome": "Complexo Turístico Cachoeirinha",
-        "descricao": [
-            "Ribeirão dos Padres",
-            "Alimentação. Acesso gratuito."
-        ],
-        "telefone": null,
-        "instagram": null
-    },
-    {
-        "nome": "D’Boa Ecoparque",
-        "descricao": [
-            "Rio Tocantinzinho",
-            "Lazer",
-            "Aventura."
-        ],
-        "telefone": "(62) 9674-5511",
-        "instagram": "dboaecoparque"
-    },
-    {
-        "nome": "Encontro das Águas",
-        "descricao": [
-            "Rio Tocantinzinho e Rio São Miguel",
-            "Alimentação."
-        ],
-        "telefone": "(62) 99932-8363",
-        "instagram": "encontrodasaguaschapadago"
-    },
-    {
-        "nome": "Fazenda Montana",
-        "descricao": [
-            "Cachoeira Véu de Noiva",
-            "Funil do Rio Preto. Acesso mediante agendamento. Necessário guia."
-        ],
-        "telefone": "(62) 9676-5719",
-        "instagram": "fazenda_montana"
-    },
-    {
-        "nome": "Igrejinha I e II",
-        "descricao": [
-            "Ribeirão dos Padres. Acesso gratuito."
-        ],
-        "telefone": null,
-        "instagram": null
-    },
-    {
-        "nome": "Passagem",
-        "descricao": [
-            "Ribeirão dos Padres. Acesso mediante agendamento."
-        ],
-        "telefone": "(62) 99601-4517",
-        "instagram": null
-    },
-    {
-        "nome": "Pesqueiro No Pé da Serra",
-        "descricao": [
-            "Cachoeira Santa Lázara (Ribeirão Chapadinha)",
-            "Gruta Encantada (Ribeirão Cuia)",
-            "Piscinas",
-            "Pesqueiro",
-            "Alimentação."
-        ],
-        "telefone": "(62) 99938-6994",
-        "instagram": "pesqueironopedaserra"
-    },
-    {
-        "nome": "Santuário Beija-Flor",
-        "descricao": [
-            "Ribeirão dos Padres",
-            "Alimentação mediante agendamento."
-        ],
-        "telefone": "(61) 9976-1715",
-        "instagram": "santuariobeijaflor"
-    },
-    {
-        "nome": "Sitio Arqueológico Curicaca",
-        "descricao": [
-            "Lago Serra da Mesa",
-            "Pintura Rupestre",
-            "Mirante. Acesso mediante agendamento. Necessário guia credenciado."
-        ],
-        "telefone": "(62) 99657-4553",
-        "instagram": "sitio.curicaca"
-    },
-    {
-        "nome": "Solar da Colina",
-        "descricao": [
-            "Rio Fradin",
-            "Piscina",
-            "Alimentação mediante agendamento."
-        ],
-        "telefone": "(61) 9 9186-2727 / (62) 99573-3538",
-        "instagram": "campingsolardacolina"
-    }
+  {
+    "nome": "Complexo Turístico Cachoeirinha",
+    "descricao": [
+      "Ribeirão dos Padres",
+      "Alimentação. Acesso gratuito."
+    ],
+    "telefone": null,
+    "instagram": null,
+    "lat": -14.151201744103007,
+    "lng": -48.07216024414475
+  },
+  {
+    "nome": "Igrejinha I e II",
+    "descricao": [
+      "Ribeirão dos Padres. Acesso gratuito."
+    ],
+    "telefone": null,
+    "instagram": null,
+    "lat": -14.149281177187115,
+    "lng": -48.08595365495425
+  },
+  {
+    "nome": "Cachoeira Pau Brasil",
+    "descricao": [
+      "Cachoeira com acesso fácil (sazonal), piscinas e alimentação."
+    ],
+    "telefone": "(62) 99907-0657",
+    "instagram": "cachoeirapaubrasil"
+  },
+  {
+    "nome": "D’Boa Ecoparque",
+    "descricao": [
+      "Rio Tocantinzinho",
+      "Lazer",
+      "Aventura."
+    ],
+    "telefone": "(62) 9674-5511",
+    "instagram": "dboaecoparque"
+  },
+  {
+    "nome": "Encontro das Águas",
+    "descricao": [
+      "Rio Tocantinzinho e Rio São Miguel",
+      "Alimentação."
+    ],
+    "telefone": "(62) 99932-8363",
+    "instagram": "encontrodasaguaschapadago"
+  },
+  {
+    "nome": "Fazenda Montana",
+    "descricao": [
+      "Cachoeira Véu de Noiva",
+      "Funil do Rio Preto. Acesso mediante agendamento. Necessário guia."
+    ],
+    "telefone": "(62) 9676-5719",
+    "instagram": "fazenda_montana"
+  },
+  {
+    "nome": "Passagem",
+    "descricao": [
+      "Ribeirão dos Padres. Acesso mediante agendamento."
+    ],
+    "telefone": "(62) 99601-4517",
+    "instagram": null
+  },
+  {
+    "nome": "Pesqueiro No Pé da Serra",
+    "descricao": [
+      "Cachoeira Santa Lázara (Ribeirão Chapadinha)",
+      "Gruta Encantada (Ribeirão Cuia)",
+      "Piscinas",
+      "Pesqueiro",
+      "Alimentação."
+    ],
+    "telefone": "(62) 99938-6994",
+    "instagram": "pesqueironopedaserra"
+  },
+  {
+    "nome": "Santuário Beija-Flor",
+    "descricao": [
+      "Ribeirão dos Padres",
+      "Alimentação mediante agendamento."
+    ],
+    "telefone": "(61) 9976-1715",
+    "instagram": "santuariobeijaflor"
+  },
+  {
+    "nome": "Sitio Arqueológico Curicaca",
+    "descricao": [
+      "Lago Serra da Mesa",
+      "Pintura Rupestre",
+      "Mirante. Acesso mediante agendamento. Necessário guia credenciado."
+    ],
+    "telefone": "(62) 99657-4553",
+    "instagram": "sitio.curicaca"
+  },
+  {
+    "nome": "Solar da Colina",
+    "descricao": [
+      "Rio Fradin",
+      "Piscina",
+      "Alimentação mediante agendamento."
+    ],
+    "telefone": "(61) 9 9186-2727 / (62) 99573-3538",
+    "instagram": "campingsolardacolina"
+  }
 ]

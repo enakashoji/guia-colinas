@@ -7,11 +7,10 @@ import { TitleKeyPipe } from '../../pipes/title-key.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 
 @Component({
-  selector: 'app-hospedagem',
-  standalone: true,
-  imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
-  templateUrl: './hospedagem.component.html',
-  styleUrl: './hospedagem.component.scss'
+    selector: 'app-hospedagem',
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
+    templateUrl: './hospedagem.component.html',
+    styleUrl: './hospedagem.component.scss'
 })
 export class HospedagemComponent {
   private data = inject(DataService);
