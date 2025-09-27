@@ -1,16 +1,18 @@
 <div class="d-flex align-items-center justify-content-between mb-3">
   <h2 class="h4 m-0">Atrativos</h2>
   <a routerLink="/" class="btn btn-outline-primary btn-sm"><i class="bi bi-house me-1"></i> Início</a>
-  
+
 </div>
 <div *ngIf="atrativos$ | async as atrativos">
+  <div class="mb-3">
+    <input class="form-control" type="search" placeholder="Filtrar por nome ou descrição..." [(ngModel)]="query">
+  </div>
   <div class="row g-3">
-    <div class="col-12 col-md-6" *ngFor="let a of atrativos">
+    <div class="col-12 col-md-6" *ngFor="let a of (atrativos | filterByText: query)">
       <article class="card card-elevated h-100">
         <div class="card-body">
           <h3 class="h5 card-title d-flex align-items-start justify-content-between">
             <span>{{ a.nome }}</span>
-            <span class="badge text-bg-light">Atrativo</span>
           </h3>
           <ul class="mb-3">
             <li *ngFor="let d of a.descricao">{{ d }}</li>

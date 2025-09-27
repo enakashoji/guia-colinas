@@ -6,15 +6,18 @@ import { Observable, map } from 'rxjs';
 import { TitleKeyPipe } from '../../pipes/title-key.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 import { TelLinkPipe } from '../../pipes/tel-link.pipe';
+import { FilterByTextPipe } from '../../pipes/filter-by-text.pipe';
+import { FormsModule } from '@angular/forms';
 
 @Component({
     selector: 'app-outros',
-    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe, TelLinkPipe],
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe, TelLinkPipe, FilterByTextPipe, FormsModule],
     templateUrl: './outros.component.html',
     styleUrl: './outros.component.scss'
 })
 export class OutrosComponent {
   private data = inject(DataService);
+  query: string = '';
   outros$: Observable<OutrosJSON> = this.data.getOutros();
   entries$ = this.outros$.pipe(
     map(obj => Object.entries(obj.outros_servicos).map(([key, value]) => ({ key, value })))

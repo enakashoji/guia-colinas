@@ -4,8 +4,11 @@
   
 </div>
 <div *ngIf="bemEstar$ | async as b">
+  <div class="mb-3">
+    <input class="form-control" type="search" placeholder="Filtrar por nome..." [(ngModel)]="query">
+  </div>
   <div class="row g-3">
-    <div class="col-12 col-md-6" *ngFor="let item of b.terapias_bem_estar">
+    <div class="col-12 col-md-6" *ngFor="let item of (b.terapias_bem_estar | filterByText: query)">
       <article class="card card-elevated h-100">
         <div class="card-body">
           <h3 class="h6 mb-2">{{ item.nome }}</h3>

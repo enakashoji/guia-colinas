@@ -6,8 +6,11 @@
 <div *ngIf="servicos$ | async as s">
   <section class="mb-4">
     <h3 class="h6 text-muted mb-2">Guias</h3>
+    <div class="mb-3">
+      <input class="form-control" type="search" placeholder="Filtrar guias..." [(ngModel)]="queryGuides">
+    </div>
     <div class="row g-3">
-      <div class="col-12 col-md-6" *ngFor="let g of s.guias">
+      <div class="col-12 col-md-6" *ngFor="let g of (s.guias | filterByText: queryGuides)">
         <article class="card card-elevated h-100">
           <div class="card-body">
             <h4 class="h6 mb-2">{{ g.nome }}</h4>
@@ -53,8 +56,11 @@
   </section>
   <section class="mb-4">
     <h3 class="h6 text-muted mb-2">Serviços Náuticos</h3>
+    <div class="mb-3">
+      <input class="form-control" type="search" placeholder="Filtrar serviços náuticos..." [(ngModel)]="queryNauticos">
+    </div>
     <div class="row g-3">
-      <div class="col-12 col-md-6" *ngFor="let n of s.servicos_nauticos">
+      <div class="col-12 col-md-6" *ngFor="let n of (s.servicos_nauticos | filterByText: queryNauticos)">
         <article class="card card-elevated h-100">
           <div class="card-body">
             <h4 class="h6 mb-2">{{ n.nome }}</h4>

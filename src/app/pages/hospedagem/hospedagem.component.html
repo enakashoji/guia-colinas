@@ -4,10 +4,13 @@
 
 </div>
 <div *ngIf="entries$ | async as entries">
+  <div class="mb-3">
+    <input class="form-control" type="search" placeholder="Filtrar por nome..." [(ngModel)]="query">
+  </div>
   <section class="mb-4" *ngFor="let entry of entries">
     <h3 class="h6 text-muted mb-2">{{ entry.key | titleKey }}</h3>
     <div class="row g-3">
-      <div class="col-12 col-md-6" *ngFor="let h of entry.value">
+      <div class="col-12 col-md-6" *ngFor="let h of (entry.value | filterByText: query)">
         <article class="card card-elevated h-100">
           <div class="card-body">
             <h4 class="h6 mb-2">{{ h.nome }}</h4>

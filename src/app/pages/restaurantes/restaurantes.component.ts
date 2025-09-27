@@ -6,15 +6,18 @@ import { Observable, map } from 'rxjs';
 import { TitleKeyPipe } from '../../pipes/title-key.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 import { TelLinkPipe } from '../../pipes/tel-link.pipe';
+import { FilterByTextPipe } from '../../pipes/filter-by-text.pipe';
+import { FormsModule } from '@angular/forms';
 
 @Component({
     selector: 'app-restaurantes',
-    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe, TelLinkPipe],
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe, TelLinkPipe, FilterByTextPipe, FormsModule],
     templateUrl: './restaurantes.component.html',
     styleUrl: './restaurantes.component.scss'
 })
 export class RestaurantesComponent {
   private data = inject(DataService);
+  query: string = '';
   restaurantes$: Observable<RestaurantesJSON> = this.data.getRestaurantes();
   entries$: Observable<{ key: string; value: RestauranteGrupo[] }[]> = this.restaurantes$.pipe(
     map(obj => Object.entries(obj).map(([key, value]) => ({ key, value })))
