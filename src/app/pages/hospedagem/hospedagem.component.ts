@@ -4,11 +4,12 @@ import { RouterLink } from '@angular/router';
 import { DataService, HospedagemJSON, HospedagemItem } from '../../services/data.service';
 import { Observable, map } from 'rxjs';
 import { TitleKeyPipe } from '../../pipes/title-key.pipe';
+import { TelLinkPipe } from '../../pipes/tel-link.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
 
 @Component({
     selector: 'app-hospedagem',
-    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe, TelLinkPipe],
     templateUrl: './hospedagem.component.html',
     styleUrl: './hospedagem.component.scss'
 })

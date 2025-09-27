@@ -10,7 +10,7 @@
         <div class="card-body">
           <h3 class="h6 mb-2">{{ item.nome }}</h3>
           <div class="d-flex flex-wrap gap-2">
-            <a *ngIf="item.telefone" class="btn btn-outline-primary btn-sm" href="tel:{{ item.telefone }}">
+            <a *ngIf="item.telefone" class="btn btn-outline-primary btn-sm" href="{{ item.telefone | telLink }}">
               <i class="bi bi-telephone me-1"></i> Ligar
             </a>
             <a *ngIf="item.telefone" class="btn btn-outline-success btn-sm" href="{{ item.telefone | whatsappLink }}" target="_blank" rel="noopener">

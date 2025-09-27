@@ -12,7 +12,7 @@
           <div class="card-body">
             <h4 class="h6 mb-2">{{ g.nome }}</h4>
             <div class="d-flex flex-wrap gap-2">
-              <a *ngIf="g.telefone" class="btn btn-outline-primary btn-sm" href="tel:{{ g.telefone }}">
+              <a *ngIf="g.telefone" class="btn btn-outline-primary btn-sm" href="{{ g.telefone | telLink }}">
                 <i class="bi bi-telephone me-1"></i> Ligar
               </a>
             <a *ngIf="g.telefone" class="btn btn-outline-success btn-sm" href="{{ g.telefone | whatsappLink }}" target="_blank" rel="noopener">
@@ -59,7 +59,7 @@
           <div class="card-body">
             <h4 class="h6 mb-2">{{ n.nome }}</h4>
             <div class="d-flex flex-wrap gap-2">
-              <a *ngIf="n.telefone" class="btn btn-outline-primary btn-sm" href="tel:{{ n.telefone }}">
+              <a *ngIf="n.telefone" class="btn btn-outline-primary btn-sm" href="{{ n.telefone | telLink }}">
                 <i class="bi bi-telephone me-1"></i> Ligar
               </a>
             <a *ngIf="n.telefone" class="btn btn-outline-success btn-sm" href="{{ n.telefone | whatsappLink }}" target="_blank" rel="noopener">

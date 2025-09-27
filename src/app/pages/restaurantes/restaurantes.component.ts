@@ -5,10 +5,11 @@ import { DataService, RestaurantesJSON, RestauranteGrupo } from '../../services/
 import { Observable, map } from 'rxjs';
 import { TitleKeyPipe } from '../../pipes/title-key.pipe';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
+import { TelLinkPipe } from '../../pipes/tel-link.pipe';
 
 @Component({
     selector: 'app-restaurantes',
-    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe],
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, TitleKeyPipe, WhatsappLinkPipe, TelLinkPipe],
     templateUrl: './restaurantes.component.html',
     styleUrl: './restaurantes.component.scss'
 })

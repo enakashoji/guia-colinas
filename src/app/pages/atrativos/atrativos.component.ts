@@ -4,10 +4,11 @@ import { RouterLink } from '@angular/router';
 import { DataService, Atrativo } from '../../services/data.service';
 import { Observable } from 'rxjs';
 import { WhatsappLinkPipe } from '../../pipes/whatsapp-link.pipe';
+import { TelLinkPipe } from '../../pipes/tel-link.pipe';
 
 @Component({
     selector: 'app-atrativos',
-    imports: [NgFor, NgIf, AsyncPipe, RouterLink, WhatsappLinkPipe],
+    imports: [NgFor, NgIf, AsyncPipe, RouterLink, WhatsappLinkPipe, TelLinkPipe],
     templateUrl: './atrativos.component.html',
     styleUrl: './atrativos.component.scss'
 })

@@ -79,6 +79,13 @@
   ],
   "hoteis_pousadas": [
     {
+      "nome": "Reserva Caiuá",
+      "telefone": "(61) 99945-8441",
+      "instagram": "reservacaiua",
+      "lat": -14.149809922076253,
+      "lng": -48.0732933153421
+    },
+    {
       "nome": "Casa Cerrado",
       "telefone": "(62) 99340-6829",
       "instagram": "casacerradopousada"
@@ -91,7 +98,9 @@
     {
       "nome": "Pousada Adorno",
       "telefone": "(62) 99663-1649",
-      "instagram": "pousadaadorno"
+      "instagram": "pousadaadorno",
+      "lat": -14.151062117019894,
+      "lng": -48.07589119441182
     },
     {
       "nome": "Pousada Água Franca",
@@ -117,13 +126,6 @@
       "nome": "Rede Planeta Hotel",
       "telefone": "(62) 99669-1587",
       "instagram": "planeta.hotel"
-    },
-    {
-      "nome": "Reserva Caiuá",
-      "telefone": "(61) 99945-8441",
-      "instagram": "reservacaiua",
-      "lat": -14.149809922076253,
-      "lng": -48.0732933153421
     }
   ],
   "hospedagem_atrativos": [
